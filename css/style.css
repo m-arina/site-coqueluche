@@ -402,7 +402,67 @@ header nav ul li a:hover {
 
 
 /* BIBLIOGRAFIA */
+#bibliografia{
+    width: 100%;
+    margin-top: 150px;
+    padding: 25px 0 15px 0;
+    background-color: aliceblue;
+}
 
+.container-biblio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heading-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    letter-spacing: 1px;
+}
+
+.heading-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    letter-spacing: 1px;
+}
+
+.title-biblio{
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.title-biblio::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 5px;
+    background: #006FCB;
+    border-radius: 20px;
+}
+
+.referencias{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+#link-ref{
+    color: black;
+    text-decoration: none;
+}
+
+#link-ref:hover{
+    color: #006FCB;
+}
 
 /* FOOTER */
 footer{
@@ -411,7 +471,6 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 150px;
     width: 100%;
     height: 110px;
 }
