@@ -1,0 +1,236 @@
+/* MEDIA QUERIES */
+@media (max-width: 435px){
+    nav{
+        display: none;
+    }
+
+    .logo-text{
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color: white;
+        padding: 14px 0;
+    }
+
+    .one, .two, .three{
+        border-radius: 20px;
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+        transition: all .2s;
+    }
+
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width:435px) {
+    .container-header{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading-header {
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+
+    .title-header {
+        font-size: 1.8rem;
+        font-weight: 800;
+        height: 25px;
+        text-align: center;
+    }
+
+    .desc-header {
+        position: relative;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        width: 95%;
+        margin-left: 12px;
+        margin-top: 60px;
+    }
+    
+    .ilust-header {
+        position: unset;
+        width: 100%;
+        order: -1;
+     }
+}
+
+@media (max-width:435px) {
+    .container-sobre, 
+    .container-sintomas,
+    .container-trans,
+    .container-tratamento,
+    .container-prev {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .heading-sobre,
+    .heading-trans,
+    .heading-prev {
+        position: relative;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+        margin-top: 40px;
+    }
+
+    .title-sobre, 
+    .title-sintomas,
+    .title-trans,
+    .title-tratamento,
+    .title-prev {
+        font-size: 1.5rem;
+        font-weight: 800;
+        height: 25px;
+        text-align: center;
+    }
+
+    .img-bacteria,
+    .img-sintomas,
+    .img-trat,
+    .img-prev {
+        width: 100%;
+    }
+
+    .titles{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:435px) {
+    #sobre{
+        margin-top: 0;
+    }
+
+    #desc-bacteria{
+        font-size: 10px;
+        font-weight: 500;
+        position: relative;
+        text-align: center;
+        margin-top: -55px;
+    }
+
+    .desc-sobre{
+        text-align: justify;
+        font-weight: 600;
+        font-size: 16px;
+        margin-top: 20px;
+        z-index: -1;
+    }
+
+    .desc-sintomas{
+        text-align: justify;
+        font-weight: 600;
+        font-size: 16px;
+        z-index: -1;
+    }
+
+    .heading-sintomas{
+        position: relative;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .img-trans{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .title-trans{
+        font-size: 1.5rem;
+        font-weight: 800;
+        height: 25px;
+        text-align: center;
+    }
+
+    .title-trans::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 120px;
+        height: 5px;
+        background: #006FCB;
+        border-radius: 20px;
+        left: 21%;
+    }
+
+    .desc-trans{
+        text-align: justify;
+        font-weight: 600;
+        font-size: 16px;
+        z-index: -1;
+    }
+
+    .heading-tratamento{
+        position: relative;
+        width: 90%;
+        text-align: center;
+        margin-left: 15px;
+        margin-top: 10px;
+    }
+
+    .desc-tratamento{
+        text-align: justify;
+        font-weight: 600;
+        font-size: 16px;
+        z-index: -1;
+    }
+
+    .desc-prev{
+        text-align: justify;
+        font-weight: 600;
+        font-size: 17px;
+        z-index: -1;
+    }
+    
+}
+
+@media (max-width:425px) {
+    #bibliografia{
+        margin-top: 80px;
+    }
+
+    .container-biblio{
+        display: flex;
+        flex-direction: column;
+        letter-spacing: 1px;
+        padding-left: 10px;
+        width: 100%
+    }
+
+    .referencias{
+        text-align: justify;
+        font-weight: 500;
+        font-size: 11px;
+        padding-bottom: 20px;
+    }
+
+    #part-one{
+        width: 90%;
+    }
+
+    #part-two{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+

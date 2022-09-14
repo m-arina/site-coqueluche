@@ -9,6 +9,7 @@
     <!-- links e styles -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <link rel="icon" type="image" href="img/icone-bacteria.png">
 
     <!-- title -->
@@ -22,7 +23,14 @@
   <header>
       <div class="container-navbar">
         <span class="logo-text">Coqueluche</span>
-        <nav class="navbar">
+        <div class="menu-mobile on">
+          <div class="menu-toggle">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+        </div>
+        <nav>
           <ul>
               <li><a href="#sobre">O que é</a></li>
               <li><a href="#sintomas">Sintomas</a></li>
@@ -48,13 +56,15 @@
     </section>
 
     <section id="sobre">
+      <div class="titles">
+        <h3 class="title-sobre">O que é a <span id="highlight">Coqueluche</span> ?</h3>
+      </div>
       <div class="container-sobre">
         <div class="img-container">
-          <img class="img-bacteria" src="img/bacteria.png" width="580px">
+          <img class="img-bacteria" src="img/bacteria.png" width="540px">
           <span id="desc-bacteria"><i>Bordella Pertussis</i>, agente causador da Coqueluque</span>
         </div>
         <div class="heading-sobre">
-          <h3 class="title-sobre">O que é a <span id="highlight">Coqueluche</span> ?</h3>
           <p class="desc-sobre">
             A coqueluche ou pertussis é uma infecção respiratória e transmissível, que compromete 
             o aparelho respiratório, podendo atingir a traqueia e os brônquios e caracteriza-se por
@@ -71,11 +81,13 @@
     </section>
 
     <section id="sintomas">
+      <div class="titles">
+        <h3 class="title-sintomas">Veja os <span id="highlight">sintomas</span></h3>
+      </div>
       <div class="container-sintomas">
         <div class="heading-sintomas">
-          <h3 class="title-sintomas">Veja os <span id="highlight">sintomas</span></h3>
           <p class="desc-sintomas">
-            Seus sintomas podem se manifestar em <b>três níveis</b>. No primeiro, o mais leve, a pessoa pode
+            Seus sintomas podem se manifestar em <span style="font-weight: 800">três níveis</span>. No primeiro, o mais leve, a pessoa pode
             ter mal-estar geral, corrimento nasal, tosse seca e febre baixa; esses sintomas iniciais
             podem durar até semanas. No estágio intermediário, ou segundo nível, a tosse piora e 
             outros sintomas aparecem, e por fim, o último nível tem o comprometimento da respiração,
@@ -84,18 +96,20 @@
           </p>
         </div>
         <div class="img-container">
-          <img class="img-sintomas" src="img/sintomas.svg" width="580px">
+          <img class="img-sintomas" src="img/sintomas.svg" width="550px">
         </div>
       </div>
     </section>
 
     <section id="transmissao">
+      <div class="titles">
+        <h3 class="title-trans">Saiba como se <span id="highlight">transmite</span> e seu <span id="highlight">diagnóstico</span></h3>
+      </div>
       <div class="container-trans">
         <div class="img-container">
-          <img class="img-trans" src="img/transmissao.svg" width="580px">
+          <img class="img-trans" src="img/transmissao.svg" width="540px">
         </div>
         <div class="heading-trans">
-          <h3 class="title-trans">Saiba como se <span id="highlight">transmite</span> e seu <span id="highlight">diagnóstico</span></h3>
           <p class="desc-trans">
             A transmissão da coqueluche ocorre, principalmente, pelo contato direto do doente com uma 
             pessoa não vacinada por meio de gotículas eliminadas por tosse, espirro ou até mesmo ao 
@@ -111,30 +125,34 @@
     </section>
 
     <section id="tratamento">
+      <div class="titles">
+        <h3 class="title-tratamento"> Veja o <span id="highlight">Tratamento</span></h3>
+      </div>
       <div class="container-tratamento">
         <div class="heading-tratamento">
-          <h3 class="title-tratamento"> Veja o <span id="highlight">Tratamento</span></h3>
           <p class="desc-tratamento">
-            Seu tratamento é basicamente com antibióticos (prescritos por um médico especialista). No 
+            Seu tratamento é basicamente com <span style="font-weight: 800">antibióticos</span> (prescritos por um médico especialista). No 
             caso de crianças, elas frequentemente ficam internadas, já que os sintomas nelas são mais 
             severos e podem provocar a morte.
           </p>
         </div>
         <div class="img-container">
-          <img class="img-trat" src="img/tratamento.svg" width="520px">
+          <img class="img-trat" src="img/tratamento.svg" width="540px">
         </div>
       </div>
     </section>
 
     <section id="prevencao">
+      <div class="titles">
+        <h3 class="title-prev">Se <span id="highlight">previna</span> da coqueluche</h3>
+      </div>
       <div class="container-prev">
         <div class="img-container">
-          <img class="img-prev" src="img/prevencao.svg" width="520px">
+          <img class="img-prev" src="img/prevencao.svg" width="530px">
         </div>
         <div class="heading-prev">
-          <h3 class="title-prev">Se <span id="highlight">previna</span> da coqueluche</h3>
           <p class="desc-prev">
-            A vacinação é o principal meio de prevenção da coqueluche. Crianças de até 6 
+            A <span style="font-weight: 800">vacinação</span> é o principal meio de prevenção da coqueluche. Crianças de até 6 
             anos, 11 meses e 29 dias devem ser vacinadas. Um indivíduo pode se tornar imune ao adquirir
             a doença (imunidade duradoura, mas não permanente) e pela vacina. Porém, caso infectado, é 
             sempre bom manter a distância e manter as mãos limpas.
@@ -144,12 +162,15 @@
     </section>
 
     <section id="bibliografia">
+      <div class="titles">
+        <h3 class="title-biblio"><span id="highlight">Bibliografia</span></h3>
+      </div>
       <div class="container-biblio">
-        <div class="heading-one">
-          <h3 class="title-biblio"><span id="highlight">Bibliografia</span></h3>
+        <div id="part-one">
           <p class="referencias">
             FIOCRUZ. <b>Coqueluche: sintomas, transmissão e prevenção</b>. Fiocruz, 2018. Disponível 
-            em: <a id="link-ref" href="https://www.bio.fiocruz.br/index.php/br/coqueluche-sintomas-transmissao-e-prevencao">
+            em: <a id="link-ref" 
+            href="https://www.bio.fiocruz.br/index.php/br/coqueluche-sintomas-transmissao-e-prevencao">
             https://www.bio.fiocruz.br/index.php/br/coqueluche-sintomas-transmissao-e-prevencao</a>. 
             Acesso em: 23 ago. 2022.
           </p>
@@ -166,7 +187,7 @@
           </p>
         </div>
 
-        <div class="heading-two">
+        <div id="part-two">
           <p class="referencias">
             MINHAVIDA. <b>O que é Coqueluche?</b>. MinhaVida, 2022. Disponível em:<a id="link-ref" 
             href="https://www.minhavida.com.br/saude/temas/coqueluche">
@@ -181,13 +202,13 @@
             WIKIPÉDIA. <b>Pertussis</b>. Wikipédia, 2022. Disponível em: <a id="link-ref" 
             href="https://pt.wikipedia.org/wiki/Pertússis">https://pt.wikipedia.org/wiki/Pertússis.</a> Acesso em: 23 ago. 2022.
           </p>
-        </div> 
+        </div>  
       </div>
     </section>
   </main>
 
   <footer>
-      <span>Copyright © 2022 - Marina Oliveira</span>
+      <span>Desenvolvido por Marina Liz 💜</span>
       <div class="social-container">
         <a id="social-link" href="https://instagram.com/_marinaliz" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
         <a id="social-link" href="https://github.com/m-arina" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
@@ -196,7 +217,7 @@
       <span>Ilustrações by <a href="https://storyset.com" id="link-footer" target="_blank">Storyset</a></span>
   </footer>
       
-
+    <script src="js/menu.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
