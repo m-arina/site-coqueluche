@@ -1,12 +1,12 @@
 let show = true; 
 
-const menuMobile = document.querySelector(".menu-mobile")
+const menuSection = document.querySelector(".menu-section")
 const menuToggle = menuSection.querySelector(".menu-toggle")
 
 menuToggle.addEventListener("click", () => {
 
     document.body.style.overflow = show ? "hidden" : "initial"
 
-    menuMobile.classList.toggle("on", show)
+    menuSection.classList.toggle("on", show)
     show = !show;
 })

@@ -144,6 +144,7 @@ header nav ul li a:hover {
     bottom: 16%;
     text-align: center;
     margin-right: 20px;
+    z-index: -1;
 }
 
 .heading-sobre{
@@ -170,6 +171,7 @@ header nav ul li a:hover {
     height: 5px;
     background: #006FCB;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .desc-sobre{
@@ -221,6 +223,7 @@ header nav ul li a:hover {
     height: 5px;
     background: #006FCB;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .desc-sintomas{
@@ -272,6 +275,7 @@ header nav ul li a:hover {
     height: 5px;
     background: #006FCB;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .desc-trans{
@@ -323,6 +327,7 @@ header nav ul li a:hover {
     height: 5px;
     background: #006FCB;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .desc-tratamento{
@@ -374,6 +379,7 @@ header nav ul li a:hover {
     height: 5px;
     background: #006FCB;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .desc-prev{
@@ -424,6 +430,7 @@ header nav ul li a:hover {
     height: 5px;
     background: #006FCB;
     border-radius: 20px;
+    z-index: -1;
 }
 
 .referencias{

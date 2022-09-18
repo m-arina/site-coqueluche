@@ -26,6 +26,58 @@
         height: 30px;
         margin-right: 20px;
     }
+
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #006FCB;
+
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        position: absolute;
+        top: 15px;
+        right: 28px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav ul {
+        text-align: center;
+        display: block;
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 1rem;
+        line-height: 2rem;
+        display: block;
+        margin-top: 8px;
+    }
 }
 
 
@@ -113,6 +165,13 @@
 @media (max-width:435px) {
     #sobre{
         margin-top: 0;
+    }
+
+    #sintomas,
+    #transmissao,
+    #tratamento,
+    #prevencao {
+        margin-top: 100px;
     }
 
     #desc-bacteria{
