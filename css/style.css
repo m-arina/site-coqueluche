@@ -138,6 +138,10 @@ header nav ul li a:hover {
     flex-direction: column;
 }
 
+.img-bacteria{
+    z-index: -1
+}
+
 #desc-bacteria{
     font-weight: 500;
     position: relative;
