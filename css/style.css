@@ -136,6 +136,7 @@ header nav ul li a:hover {
 .img-container{
     display: flex;
     flex-direction: column;
+    z-index: -1
 }
 
 #desc-bacteria{
