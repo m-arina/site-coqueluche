@@ -154,6 +154,11 @@
     .img-prev {
         width: 100%;
     }
+    
+    .img-bacteria{
+        width: 100%;
+        z-index: -1;
+    }
 
     .titles{
         display: flex;
